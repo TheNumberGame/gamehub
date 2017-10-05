@@ -25,13 +25,13 @@
    <a class="navbar-brand" href="#">GameHub</a>
    </div>
    <div class="collapse navbar-collapse" id="mainNavBar">
-   <ul class="nav navbar-nav">
-   <li {% if active_page == "home" %} class = "active"{% endif %}><a href= "/.">Home</a></li>
-   <li {% if active_page == "overwatch" %} class = "active"{% endif %}><a href="/overwatch">Overwatch</a></li>
-   <li {% if active_page == "pubg" %} class = "active"{% endif %}><a href="/pubg">PUBG</a></li>
-   </ul>
- </div>
- </div>
+    <ul class="nav navbar-nav">
+      <li {% if active_page == "home" %} class = "active"{% endif %}><a href= "/.">Home</a></li>
+      <li {% if active_page == "overwatch" %} class = "active"{% endif %}><a href="/overwatch">Overwatch</a></li>
+      <li {% if active_page == "pubg" %} class = "active"{% endif %}><a href="/pubg">PUBG</a></li>
+    </ul>
+   </div>
+  </div>
 </nav>
 {% block body %}{% endblock %}
 </html>
